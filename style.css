@@ -1,5 +1,6 @@
 body {
     overflow: auto;
+    margin: 0;
 }
 .header {
     /* colors and sizes*/
@@ -51,22 +52,70 @@ body {
 }
 .sectiontwo {
     /* colors and sizes*/
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
     /*placement*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information {
+    color: rgb(15, 4, 76);
+    font-size: 55px;
+}
+.boxinfoone {
+    display: flex;
+    flex-direction: row;
+}
+.boxinfo {
+    margin: 25px;
+    text-align: center;
+}
+.img {
+    background-color:rgb(15, 4, 76);
+    height: 200px;
+    width: 200px;
+    border-width: 2px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.text {
+    height: auto;   
+    width: 200px;
+    text-align: center;
 }
 .sectionthree {
     /* colors and sizes*/
+    background-color: rgb(54, 73, 106);
+    height: 200px;
     /*placement*/
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.sectionfour {
-    /* colors and sizes*/
-    /*placement*/
+.contact {
+    color:rgb(238, 238, 238);
+    font-size: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+li {
+    color:rgb(182, 179, 179);
+    font-size: 21px;
+    margin: 10px;
+    font-weight: bolder;
 }
 .footer {
     /* colors and sizes*/
-    background-color: rgb(54, 73, 106);
-    color: rgb(232, 221, 192);
-
+    background-color: rgb(15, 4, 76);
+    color: rgb(182, 179, 179);
+    height: 30px;
     /*placement*/
     display: flex;
     justify-content: center;
